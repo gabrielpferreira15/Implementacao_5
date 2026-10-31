@@ -3,8 +3,13 @@
 #include <pthread.h>
 #include "sync_car.h"
 
-void station_init(){
-
+void station_init(struct station *station){
+    pthread_mutex_init(&station->lock, NULL);
+    pthread_cond_init(&station->trem_chegou, NULL);
+    pthread_cond_init(&station->todos_embarcaram, NULL);
+    station->passageiros_esperando = 0;
+    station->assentos_livres = 0;
+    station->passageiros_embarcando = 0;
 }
 
 void station_load_car(struct station *station, int count){
