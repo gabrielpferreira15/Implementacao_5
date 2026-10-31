@@ -1,14 +1,14 @@
-CC = gcc-16
-CFLAGS = -Wall -Wextra -std=gnu17
+CC = gcc
+CFLAGS = -Wall -Wextra -std=gnu17 -pthread
 
 TARGET = sync_car
-OBJ = main.o sync_car.o
+OBJ = sync_car-runner.o sync_car.o
 
 $(TARGET): $(OBJ)
 	$(CC) $(CFLAGS) $(OBJ) -o $(TARGET)
 
-main.o: main.c sync_car.h
-	$(CC) $(CFLAGS) -c main.c
+sync_car-runner_2.o: sync_car-runner.c sync_car.h
+	$(CC) $(CFLAGS) -c sync_car-runner.c
 
 sync_car.o: sync_car.c sync_car.h
 	$(CC) $(CFLAGS) -c sync_car.c
