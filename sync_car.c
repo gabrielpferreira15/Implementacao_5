@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "station.h"
+#include "sync_car.h"
 
 void station_init(){
 

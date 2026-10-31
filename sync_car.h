@@ -1,5 +1,5 @@
-#ifndef STATION_H
-#define STATION_H
+#ifndef SYNC_CAR_H
+#define SYNC_CAR_H
 
 typedef struct{
 }station;
