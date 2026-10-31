@@ -74,7 +74,6 @@ int main(void)
 
 	signal(SIGALRM, alarm_handler);
 
-	/*
 	_alarm(1, "station_load_car() did not return immediately when no waiting passengers");
 	station_load_car(&station, 0);
 	station_load_car(&station, 10);
@@ -174,6 +173,6 @@ int main(void)
 
 		retorno = 1;
 	}
-	*/
+	
 	return retorno;
 }
