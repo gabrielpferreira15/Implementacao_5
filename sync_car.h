@@ -1,15 +1,22 @@
 #ifndef SYNC_CAR_H
 #define SYNC_CAR_H
 
-typedef struct{
-}station;
+#include <pthread.h>
+struct station {
+    pthread_mutex_t lock;
+    pthread_cond_t trem_chegou; 
+    pthread_cond_t todos_embarcaram;
+    int passageiros_esperando; 
+    int assentos_livres;       
+    int passageiros_embarcando;
+};
 
-void station_init();
+void station_init(struct station *station);
 
-void station_load_car(station *station, int count);
+void station_load_car(struct station *station, int count);
 
-void station_wait_for_car(station *station);
+void station_wait_for_car(struct station *station);
 
-void station_on_board(station *station);
+void station_on_board(struct station *station);
 
 #endif
