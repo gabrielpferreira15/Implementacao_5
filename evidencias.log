@@ -154,4 +154,27 @@ gcc -Wall -Wextra -std=gnu17 -pthread sync_car-runner.o sync_car.o -o sync_car
 Error: Failed to complete after 1 seconds. Something's wrong, or your system is terribly slow. Possible error hint: [station_load_car() did not return immediately when no waiting passengers]
 [1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004hmmake clean[?2004l
 rm -f sync_car-runner.o sync_car.o sync_car
-[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004h[H[2J[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[H[2J[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [Kppwd[?2004l
+/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004hwwhoami[?2004l
+gabrielpeixoto
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004hddate[?2004l
+Dom  1 Nov 2026 19:57:29 -03
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004hmmem make[?2004l
+gcc -Wall -Wextra -std=gnu17 -pthread   -c -o sync_car-runner.o sync_car-runner.c
+[1msync_car-runner.c:54:24: [0m[0;1;35mwarning: [0m[1munused parameter 'foo' [-Wunused-parameter][0m
+   54 | [0;34mvoid[0m alarm_handler([0;34mint[0m foo)[0m
+      | [0;1;32m                       ^
+[0m1 warning generated.
+gcc -Wall -Wextra -std=gnu17 -pthread -c sync_car.c
+[1msync_car.c:50:39: [0m[0;1;35mwarning: [0m[1munused parameter 'station' [-Wunused-parameter][0m
+   50 | [0;34mvoid[0m station_on_board([0;34mstruct[0m station *station){[0m
+      | [0;1;32m                                      ^
+[0m1 warning generated.
+gcc -Wall -Wextra -std=gnu17 -pthread sync_car-runner.o sync_car.o -o sync_car
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004h../sync_car[1m [0m[0m [?2004l
+car entering station with 38 free seats
+Error: station_load_car failed
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004hmmake c el  clena  an[?2004l
+rm -f sync_car-runner.o sync_car.o sync_car
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004h[H[2J[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K
