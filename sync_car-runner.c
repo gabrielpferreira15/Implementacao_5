@@ -79,8 +79,6 @@ int main(void)
 	station_load_car(&station, 10);
 	_alarm(0, NULL);
 
-	/*
-
 	int i;
 	const int total_passengers = 100;
 	int passengers_left = total_passengers;
@@ -175,6 +173,6 @@ int main(void)
 
 		retorno = 1;
 	}
-	*/
+	
 	return retorno;
 }
