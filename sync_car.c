@@ -12,8 +12,16 @@ void station_init(struct station *station){
     station->passageiros_embarcando = 0;
 }
 
-void station_load_car(struct station *station, int count){
+void station_load_car(struct station *station, int count) {
+    station->assentos_livres = count;
 
+    pthread_cond_broadcast(&station->trem_chegou);
+
+    while (station->assentos_livres > 0 && (station->passageiros_esperando > 0 || station->passageiros_embarcando > 0)) {
+        pthread_cond_wait(&station->todos_embarcaram, &station->lock);
+    }
+
+    station->assentos_livres = 0;
 }
 
 void station_wait_for_car(struct station *station){

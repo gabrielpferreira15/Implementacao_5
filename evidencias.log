@@ -70,4 +70,43 @@ gabrielpeixoto
 /Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5
 [1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004hddate[?2004l
 Sáb 31 Out 2026 20:12:06 -03
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004h[H[2J[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [Keexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Sat Oct 31 20:48:00 2026
+Script started on Sun Nov  1 18:35:26 2026
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004hmmak m  wwho w  mmake[?2004l
+gcc -Wall -Wextra -std=gnu17 -pthread   -c -o sync_car-runner.o sync_car-runner.c
+[1msync_car-runner.c:54:24: [0m[0;1;35mwarning: [0m[1munused parameter 'foo' [-Wunused-parameter][0m
+   54 | [0;34mvoid[0m alarm_handler([0;34mint[0m foo)[0m
+      | [0;1;32m                       ^
+[0m[1msync_car-runner.c:179:9: [0m[0;1;35mwarning: [0m[1mvariable 'retorno' is uninitialized when used here [-Wuninitialized][0m
+  179 |         [0;34mreturn[0m retorno;[0m
+      | [0;1;32m               ^~~~~~~
+[0m[1msync_car-runner.c:71:13: [0m[0;1;36mnote: [0minitialize the variable 'retorno' to silence this warning[0m
+   71 |         [0;34mint[0m retorno;[0m
+      | [0;1;32m                   ^
+[0m      | [0;32m                    = 0
+[0m2 warnings generated.
+gcc -Wall -Wextra -std=gnu17 -pthread -c sync_car.c
+[1msync_car.c:27:43: [0m[0;1;35mwarning: [0m[1munused parameter 'station' [-Wunused-parameter][0m
+   27 | [0;34mvoid[0m station_wait_for_car([0;34mstruct[0m station *station){[0m
+      | [0;1;32m                                          ^
+[0m[1msync_car.c:31:39: [0m[0;1;35mwarning: [0m[1munused parameter 'station' [-Wunused-parameter][0m
+   31 | [0;34mvoid[0m station_on_board([0;34mstruct[0m station *station){[0m
+      | [0;1;32m                                      ^
+[0m2 warnings generated.
+gcc -Wall -Wextra -std=gnu17 -pthread sync_car-runner.o sync_car.o -o sync_car
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004h[H[2J[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [Kwwhoami[?2004l
+gabrielpeixoto
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004hppwd[?2004l
+/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004hddate[?2004l
+Dom  1 Nov 2026 18:45:45 -03
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004h../sync_car[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004hmmake clean[?2004l
+rm -f sync_car-runner.o sync_car.o sync_car
 [1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004h
