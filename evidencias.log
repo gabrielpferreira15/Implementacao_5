@@ -177,4 +177,32 @@ car entering station with 38 free seats
 Error: station_load_car failed
 [1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004hmmake c el  clena  an[?2004l
 rm -f sync_car-runner.o sync_car.o sync_car
-[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004h[H[2J[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-Gabriel-6.local/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [K[?2004h[H[2J[0m[27m[24m[Jgabrielpeixoto@MacBook-Air-de-Gabriel-6 Implementacao_5 % [Keexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...none found.
+
+Script done on Sun Nov  1 20:08:30 2026
+Script started on Mon Nov  2 17:17:10 2026
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBookAir/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBookAir Implementacao_5 % [K[?2004hppwd[?2004l
+/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBookAir/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBookAir Implementacao_5 % [K[?2004hwwho ami[?2004l
+gabrielpeixoto
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBookAir/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBookAir Implementacao_5 % [K[?2004hddate[?2004l
+Seg  2 Nov 2026 17:46:39 -03
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBookAir/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBookAir Implementacao_5 % [K[?2004hmmake[?2004l
+gcc -Wall -Wextra -std=gnu17 -pthread   -c -o sync_car-runner.o sync_car-runner.c
+[1msync_car-runner.c:54:24: [0m[0;1;35mwarning: [0m[1munused parameter 'foo' [-Wunused-parameter][0m
+   54 | [0;34mvoid[0m alarm_handler([0;34mint[0m foo)[0m
+      | [0;1;32m                       ^
+[0m1 warning generated.
+gcc -Wall -Wextra -std=gnu17 -pthread -c sync_car.c
+gcc -Wall -Wextra -std=gnu17 -pthread sync_car-runner.o sync_car.o -o sync_car
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBookAir/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBookAir Implementacao_5 % [K[?2004h../sync_car[1m [0m[0m [?2004l
+car entering station with 36 free seats
+Error: station_load_car returned early!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBookAir/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBookAir Implementacao_5 % [K[?2004hmmake clean[?2004l
+rm -f sync_car-runner.o sync_car.o sync_car
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBookAir/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBookAir Implementacao_5 % [K[?2004h[H[2J[0m[27m[24m[Jgabrielpeixoto@MacBookAir Implementacao_5 % [K
