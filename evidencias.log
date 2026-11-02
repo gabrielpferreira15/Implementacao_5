@@ -229,4 +229,6 @@ car departed station with 9 new passenger(s) (expected 9)
 car entering station with 43 free seats
 car departed station with 40 new passenger(s) (expected 40)
 Looks good!
-[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBookAir/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBookAir Implementacao_5 % [K[?2004hmmake cla ean
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBookAir/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBookAir Implementacao_5 % [K[?2004hmmake cla ean[?2004l
+rm -f sync_car-runner.o sync_car.o sync_car
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBookAir/Users/gabrielpeixoto/Documents/FACULDADE/CC/P3/IFSO/Implementacao_5[0m[27m[24m[Jgabrielpeixoto@MacBookAir Implementacao_5 % [K[?2004h[H[2J[0m[27m[24m[Jgabrielpeixoto@MacBookAir Implementacao_5 % [K
